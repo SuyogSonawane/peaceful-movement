@@ -1,5 +1,23 @@
-<div id="main-content" style="display:none;">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>For You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div id="password-screen">
+    <div class="card">
+        <h1>For Someone Special</h1>
+        <p>Enter the password to continue</p>
+        <input type="password" id="passwordInput" placeholder="Password">
+        <button onclick="checkPassword()">Enter</button>
+        <p id="error"></p>
+    </div>
+</div>
+
+<div id="main-content" style="display:none;">
     <div id="slideshow">
         <div class="slide active">
             <img src="assets/images/1.jpg">
@@ -29,5 +47,8 @@
             <button id="noBtn">No</button>
         </div>
     </div>
-
 </div>
+
+<script src="script.js"></script>
+</body>
+</html>
