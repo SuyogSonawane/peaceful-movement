@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f6f1e7;
+    color: #4a403a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.card {
+    background: #fffaf2;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+input {
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #d8cfc4;
+    border-radius: 6px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #d6c7b0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cbb89d;
+}
