@@ -1,28 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>For You</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<div id="password-screen">
-    <div class="card">
-        <h1>For Someone Special</h1>
-        <p>Enter the password to continue</p>
-        <input type="password" id="passwordInput" placeholder="Password">
-        <button onclick="checkPassword()">Enter</button>
-        <p id="error"></p>
-    </div>
-</div>
-
 <div id="main-content" style="display:none;">
-    <div class="welcome">
-        <h1>Welcome</h1>
-        <p>This space was made just for you.</p>
-    </div>
-</div>
 
-<script src="script.js"></script>
-</body>
-</html>
+    <div id="slideshow">
+        <div class="slide active">
+            <img src="assets/images/1.jpg">
+            <div class="caption">Some moments stay.</div>
+        </div>
+
+        <div class="slide">
+            <img src="assets/images/2.jpg">
+            <div class="caption">Some smiles feel like home.</div>
+        </div>
+
+        <div class="slide">
+            <img src="assets/images/3.jpg">
+            <div class="caption">Some memories become everything.</div>
+        </div>
+
+        <div class="slide">
+            <img src="assets/images/4.jpg">
+            <div class="caption">And some people change your world.</div>
+        </div>
+    </div>
+
+    <div id="question-screen" style="display:none;">
+        <h1>Will you be my Valentine?</h1>
+        <div class="buttons">
+            <button id="yesBtn">Yes</button>
+            <button id="noBtn">No</button>
+        </div>
+    </div>
+
+</div>
