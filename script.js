@@ -127,7 +127,7 @@ function showFinalMessage() {
                 font-weight:300;
                 letter-spacing:1px;
             ">
-                I love you.
+                I Love You Bayboos.
             </p>
         </div>
     `;
